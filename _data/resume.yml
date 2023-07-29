@@ -84,7 +84,7 @@ main: #简历主要内容，
   name: 项目经验
   content:
   - title: 新闻业务数据科学
-    duration: 开发者&数据分析
+    duration: "开发者&数据分析"
     tags:
     - Hive
     - Spark
