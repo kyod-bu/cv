@@ -50,13 +50,12 @@ layout: default
         <h1>{{ data.name }}</h1>
         <div class="jobtitle">{{ data.jobtitle }}</div>
       </div>
-      <address class="contact">
+      <address id="contact">
         {% for item in data.contact %}
         <div class="contact-item">
           {% if item.icon.size > 0 %}
-            {% include {{item.icon}} %}
+          <i class="icon" aria-hidden="true">{% include {{item.icon}} %}</i>
           {% endif %} 
-          <span class="icon">{{item.desc}}</span>
           {% if item.href.size > 0 %}
           <a href="{{item.href }}" {{ item.attr }}>{{ item.text }}</a>
           {% else %}
