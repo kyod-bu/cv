@@ -28,7 +28,7 @@ html {
 }
 
 body {
-  max-width: 78m;
+  max-width: 78em;
   text-align: center;
   margin: 0 auto;
   padding: 1.2em;
@@ -72,14 +72,13 @@ main {
 
 header,
 .head,
-.info,
-.contact-item{
+.info {
   @include flex(center);
 }
 
 .avatar,
 #name,
-.contact,
+#contact,
 h2,
 h3,
 h4,
@@ -130,14 +129,14 @@ header {
     }
   }
 
-  .contact {
+  #contact {
     // margin-right: 7%;
     text-align: left;
     font-size: .95em;
     font-style: normal; // padding: 0 1em;
   } //图标
   .icon {
-    margin: 0 .5em;
+    margin-right: .5em;
   }
 
   svg {
@@ -172,7 +171,7 @@ section {
     &:lang(zh) {
       font-size: 1.65em;
       padding-right: 1%;
-      width: $subject-width * 3 / 4; // min-width: 5em;
+      width: $subject-width * 3 / 4; // min-width: 5em;      
     }
   }
 
@@ -195,12 +194,12 @@ section {
   .summary {
     font-size: 1.1em;
     margin: .3em 0 0 1em;
-    line-height: 2em;
+    line-height: 1.5em;
     font-weight: 600;
   }
 
   .items {
-    line-height: 1.5em;
+    line-height: 2em;
     margin: 0 0 0 1em;
     font-size: 1.1em;
     font-weight: 600;
@@ -217,7 +216,6 @@ section {
 
 .head,
 .info {
-  flex-wrap: wrap;
   @include justify-content(space-between);
 }
 
@@ -257,14 +255,9 @@ code {
 
 //时间和标签
 .info {
-  .time {
-    color: #666;
-    margin-left: auto;
-  }
-
+  .time,
   .tag {
     color: #666;
-    margin-right: auto;
   }
 
   .time,
@@ -313,28 +306,27 @@ code {
 }
 
 // 其他others
-section > ul {
-  & > li {
+.other {
+  .block {
     list-style: none;
     margin-bottom: 0;
     padding-top: .1em;
-    @extend .block;
   }
 
-  h3 {
+  .name {
     font-weight: 700;
     font-size: 1.1em; // min-width: 0;
     margin: 0;
   }
 
-  ul {
+  .text {
+    background-color: $other_bg;
+    margin-left: 1em;
+  }
+
+  .list {
     padding-left: 2em;
     line-height: 1.7em;
-
-    & > li {
-      background-color: $other_bg;
-      margin-left: 1em;
-    }
   }
 }
 
