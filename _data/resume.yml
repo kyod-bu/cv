@@ -36,7 +36,7 @@ main: #简历主要内容，
   - title: University of Virginia（弗吉尼亚大学）
     # duration:
     sub: 2019年9月 - 2020年7月
-    detail: 全球商务硕士 Master of Global Commerce
+    detail: Master of Global Commerce 全球商务硕士
   - title: 广东外语外贸大学
     # duration: 
     sub: 2014年9月 - 2018年6月
@@ -53,7 +53,11 @@ main: #简历主要内容，
     - Spark
     - Data visualization
   - title: 个人技能总结
-    summary: Consectetur, Adipiscing, Elit
+    summary: 1. 在腾讯负责过画像数据分析/画像平台产品等项目，有完整的项目经验
+             2. 有画像业务的项目经验，有独立分析和解决数据问题的能力，能针对画像场景进行有效数据挖掘并形成策略
+             3. 掌握多种数据分析模型，了解多种技术选型，并能有效应用于画像服务中。如孤立森林等判异算法、聚类算法、XGBoost、GCN/GraphSage（熟悉）等
+             4. 具备数据分析、大数据开发等大数据分析处理能力。 包含hive、spark、python等
+             5. 工作认真负责、勇于担当、沟通和团队协作能力强；能力综合，有独立管理和运营项目的经验
 
 - type: experience
   name: 工作经历
@@ -125,7 +129,7 @@ others: #其他列表显示
   content: #选择需要的格式
   - 
   - title: "奖项"
-    text: "连续获得两次Outstanding员工，腾讯卓越研发奖-腾讯新闻数据科学工业化项目团队成员"
+    text: "连续获得两次Outstanding员工，腾讯卓越研发奖-腾讯新闻数据科学工业化项目团队成员，腾讯开源协同奖-数据资产管理(河图) Oteam"
   - title: "认证:"
     text: "BG内数据科学通道培养计划课程认证"
   #   items: #单行列表
