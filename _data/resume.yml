@@ -32,11 +32,11 @@ main: #简历主要内容，
   - title: 中山大学
     # duration: 
     sub: 2018年9月 - 2021年7月
-    detail: 经济学硕士（国际商务方向）
-  - title: University of Virginia（弗吉尼亚大学）
+    detail: 经济学硕士 (国际商务方向)
+  - title: University of Virginia (弗吉尼亚大学)
     # duration:
     sub: 2019年9月 - 2020年7月
-    detail: Master of Science （Global Commerce）
+    detail: Master of Science (Global Commerce)
   - title: 广东外语外贸大学
     # duration: 
     sub: 2014年9月 - 2018年6月
@@ -74,14 +74,14 @@ main: #简历主要内容，
     # summary: 职务或者工作总结(自动折叠)
     detail: 业务数据科学：负责新闻业务画像覆盖率、准确率提升，建立画像服务的关键运营指标体系和监控体系 <br>  &nbsp &nbsp  平台数据运营：解决用户在使用画像平台过程中遇到的数据问题，为业务提供可靠的画像服务
     
-  - title: 京东 - 数据产品（实习）
+  - title: 京东 - 数据产品 (实习)
     sub:  人工智能事业部 
     duration: "2019年6月 - 2019年8月"
     tags:
     # summary: 职务或者工作总结(自动折叠)
     detail: 知识图谱产品经理：负责药学知识图谱面向药师端的产品功能策划及优化迭代，负责撰写需求文档，梳理数据结构，输出产品原型图，推动接入药品处方审核平台
 
-  - title: 晨星资讯 - 数据分析（实习）
+  - title: 晨星资讯 - 数据分析 (实习)
     sub:  全球基金部门
     duration: "2018年6月 - 2019年8月"
     tags:
