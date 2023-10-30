@@ -4,7 +4,7 @@
 title: "杨诗蕙简历"
 lang: "zh" #语言设置 zh表示中文 en 表示英语
 name: "杨诗蕙"
-jobtitle: "数据分析/数据产品" #可空不显示
+jobtitle: "数据科学/数据工程" #可空不显示
 photo: "assets/img/WechatIMG29.jpeg" #照片可空，不显示
 
 #联系方式
@@ -32,7 +32,7 @@ main: #简历主要内容，
   - title: 中山大学
     # duration: 
     sub: 2018年9月 - 2021年7月
-    detail: 国际商务硕士 
+    detail: 经济学类硕士 
   - title: University of Virginia (弗吉尼亚大学)
     # duration:
     sub: 2019年9月 - 2020年7月
@@ -116,7 +116,7 @@ main: #简历主要内容，
             6.实验配置：产出微信腾讯新闻插件实验人群，配置实验人群包，跟进回收并分析人群实验效果；多个实验中用户人均消费时长等关键指标显著正向，已推全上线
     sub: 开发者&数据分析
     
-  - title: 画像平台数据开发
+  - title: 画像平台数据工程
     duration: 
     tags:
     - Hive
