@@ -9,8 +9,8 @@ photo: "assets/img/WechatIMG29.jpeg" #照片可空，不显示
 
 #联系方式
 contact: #联系方式连接等3~5行
-- text: "hazelyang666@gmail.com" #文本内容
-  href: 'mailto:hazelyang666@gmail.com' #链接，无链接则空  
+- text: "hazel.yang518@gmail.com" #文本内容
+  href: 'mailto:hazel.yang518@gmail.com' #链接，无链接则空  
   icon: 'icons/email.svg' #图标 svg文件
 - text: "+86 18826101678"
   icon: 'icons/phone.svg'
