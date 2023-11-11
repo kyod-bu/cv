@@ -4,7 +4,7 @@
 title: "杨诗蕙简历"
 lang: "zh" #语言设置 zh表示中文 en 表示英语
 name: "杨诗蕙"
-jobtitle: "数据科学/数据工程" #可空不显示
+jobtitle: "数据科学" #可空不显示
 photo: "assets/img/WechatIMG29.jpeg" #照片可空，不显示
 
 #联系方式
