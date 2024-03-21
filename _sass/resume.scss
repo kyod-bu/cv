@@ -193,7 +193,7 @@ section {
 
   .summary {
     font-size: 1.1em;
-    margin: .3em 0 0 1em;
+    margin: .3em 0 0 .5em;
     line-height: 1.5em;
     font-weight: 600;
     list-style: none;
@@ -288,11 +288,12 @@ code {
 .detail {
   font-size: 1.05em;
   margin: 1em 0;
-  text-indent: 1em;
+  text-indent: 0;
   line-height: 1.8em;
   font-weight: 400;
   background: $detail_bg;
   word-wrap: break-word;
+  padding: .5em;
 
   &:lang(zh) {
     word-break: break-all;
