@@ -75,7 +75,7 @@ main: #简历主要内容，
   content:
   - title: 大模型场景落地｜数据挖掘
     sub: 2023年3月 - 至今
-    duration:
+    duration: 2023年3月 - 至今
     tags:
     - 数据加工
     - Prompt设计
@@ -86,7 +86,10 @@ main: #简历主要内容，
             2. 模型评估筛选：对司内机器学习平台提供的中文对话模型，进行评估，筛选出适用于自己业务场景的模型（ChatGLM2-6B、Baichuan2-7B、Qwen-14B）； <br>  &nbsp &nbsp
             3. 模型微调：借助Prompt和LoRA微调技术，优化模型效果； <br>  &nbsp &nbsp
             4. 验证并迭代：借助Python接口调用对模型结果进行验证并迭代，直到准确率到90%以上。
-    # open: open
+    open: open
+    items:
+    - item1
+    - item2
 
   - title: 星迹-业务安全风控平台｜功能开发&运营负责人
     sub: 2019年3月 - 2023年2月
