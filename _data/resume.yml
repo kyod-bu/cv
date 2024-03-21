@@ -29,8 +29,8 @@ main: #简历主要内容，
 - type: skill
   name: 个人技能
   content:
-  - title: 开发技能
-    summary: 开发技能summary
+  - title:
+    summary: 开发技能
     items: #itmems 可以小块的方式显示
     - SQL
     - Python
@@ -38,25 +38,29 @@ main: #简历主要内容，
     - 工程素养
     detail: 了解TCP/IP、HTTP等网络协议<br/>
             熟练使用Pycharm、Vscode等开发工具，及Git版本管理工具<br/>
-  - title: 数据技能
+    open: open
+  - title:
+    summary: 数据技能
     items:
     - SQL
     - 数据分析
     - 数据可视化
     - 数据应用
     - 业务应用
+    summary:
+    detail: 1. Pandas/Numpy数据处理，Matplotlib可视化<br/>
+            5. 工作认真负责、勇于担当、沟通和团队协作能力强；能力综合，有独立管理和运营项目的经验
+    open: open
+  - title:
+    summary: AI技能
     tags:
     - 数据加工
     - Prompt设计
     - 模型微调
     - 模型评测
-    summary: Pandas/Numpy数据处理，Matplotlib可视化
-    detail: 1. <br/>
-            5. 工作认真负责、勇于担当、沟通和团队协作能力强；能力综合，有独立管理和运营项目的经验
-  - title:
-    summary: AI技能
     detail: 1. 掌握llm落地技术，包括但不限于prompt设计、参数微调、模型评测等<br/>
             2. 有大模型场景落地经验
+    open: open
   - title:
     summary: 其他
     detail: 1. 有画像业务的完整项目经验，有独立分析和解决数据问题的能力，能针对画像场景进行有效数据挖掘并形成策略<br/>
@@ -64,6 +68,7 @@ main: #简历主要内容，
             3. 了解各类数据建模方法，如线性回归、SHAP value、逻辑回归、决策树以及因果分析的框架和要素<br/>
             4. 具备数据分析、大数据开发的能力，包含hive、spark、python等<br/>
             5. 工作认真负责、勇于担当、沟通和团队协作能力强；能力综合，有独立管理和运营项目的经验
+    open: open
 
 - type: experience
   name: 工作经历
