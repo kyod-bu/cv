@@ -1,20 +1,20 @@
 # 数据格式可以为 yaml(文件以.yml结尾) 或者json(文件以.json结尾)
 # 如果YAML格式的数据请先检查格式是否有误，可选检查工具 http://www.yamllint.com
 
-title: "卜亚风简历"
-lang: "zh" #语言设置 zh表示中文 en 表示英语
-name: "卜亚风"
-jobtitle: "数据科学" #可空不显示
-photo: "assets/img/me.jpg" #照片可空，不显示
+title: 卜亚风简历
+lang: zh #语言设置 zh表示中文 en 表示英语
+name: 卜亚风
+jobtitle: 数据科学 #可空不显示
+photo: assets/img/me.jpg #照片可空，不显示
 
 #联系方式
 contact: #联系方式连接等3~5行
-- text: "yafengbu@gmail.com" #文本内容
-  href: 'mailto:yafengbu@gmail.com' #链接，无链接则空
-  icon: 'icons/email.svg' #图标 svg文件
-  # attr: 'target="_blank"' #新标签页打开
-- text: "+86 15029074256"
-  icon: 'icons/phone.svg'
+- text: yafengbu@gmail.com #文本内容
+  href: mailto:yafengbu@gmail.com #链接，无链接则空
+  icon: icons/email.svg #图标 svg文件
+  # attr: target="_blank" #新标签页打开
+- text: +86 15029074256
+  icon: icons/phone.svg
 
 #main下面是主体内容，类别条数不限
 main: #简历主要内容，
@@ -23,11 +23,11 @@ main: #简历主要内容，
   content: #内容基本格式 标题-副标题-日期-详细内容 (都允许空)
   - title: 西安邮电大学
     duration: 2013年9月 - 2017年7月
-    sub: 这个sub是个啥
-    detail: 智能科学与技术｜学士
+    sub: 智能科学与技术｜学士
+    detail: 主修课程：概率论与随机过程、计算机网络、算法设计与分析、机器学习、模式识别、自然语言理解等。
 
 - type: 技能
-  # name: "技术栈和编程语言"
+  # name: 技术栈和编程语言
   content:
   - title: 技术栈与编程语言
     items: #itmems 可以小块的方式显示
@@ -50,8 +50,8 @@ main: #简历主要内容，
     sub: 数据挖掘
     duration: 2019年3月 - 至今
     tags:
-    - 数据挖掘
-    - 模型落地
+    # - 数据挖掘
+    # - 模型落地
     # summary: 职务或者工作总结(自动折叠)
     detail: 负责大模型在数据分析领域的多个场景落地； <br>  &nbsp &nbsp  以往负责业务安全平台的日常运营和部分中台的前端开发工作。
 
@@ -80,11 +80,11 @@ main: #简历主要内容，
     - Prompt设计
     - 模型微调
     - 模型评测
-    summary: 1.商业化标签抽取：使用大模型相关技术，从众多产品的二方数据中，挖掘商业化标签（商品类别、SPU）； <br>  &nbsp &nbsp 2.智能化数据分析引擎：用AI开启对话式数据分析，从而提高数据资产的使用效率，同时显著降低了数据分析的门槛。
-    detail: 1.数据处理：对业务方提供的数据，进行清洗加工，整理成模型需要的格式； <br>  &nbsp &nbsp
-            2.模型评估筛选：对司内机器学习平台提供的中文对话模型，进行评估，筛选出适用于自己业务场景的模型（ChatGLM2-6B、Baichuan2-7B、Qwen-14B）； <br>  &nbsp &nbsp
-            3.模型微调：借助Prompt和LoRA微调技术，优化模型效果； <br>  &nbsp &nbsp
-            4.验证并迭代：借助Python接口调用对模型结果进行验证并迭代，直到准确率到90%以上。
+    summary: 1. 商业化标签抽取：使用大模型相关技术，从众多产品的二方数据中，挖掘商业化标签（商品类别、SPU）； <br>  &nbsp &nbsp 2. 智能化数据分析引擎：用AI开启对话式数据分析，从而提高数据资产的使用效率，同时显著降低了数据分析的门槛。
+    detail: 1. 数据处理：对业务方提供的数据，进行清洗加工，整理成模型需要的格式； <br>  &nbsp &nbsp
+            2. 模型评估筛选：对司内机器学习平台提供的中文对话模型，进行评估，筛选出适用于自己业务场景的模型（ChatGLM2-6B、Baichuan2-7B、Qwen-14B）； <br>  &nbsp &nbsp
+            3. 模型微调：借助Prompt和LoRA微调技术，优化模型效果； <br>  &nbsp &nbsp
+            4. 验证并迭代：借助Python接口调用对模型结果进行验证并迭代，直到准确率到90%以上。
     sub: 数据挖掘
     open: open
 
@@ -95,11 +95,11 @@ main: #简历主要内容，
     - SQL
     - Echarts
     summary: 一站式安全运营平台，业务接入之后，在web端可视化策略编排，实现全链路的监控和运营数据管理，依赖于业务多年沉淀的风控画像以及多个场景的风控策略，快速实现业务安全防护。
-    detail: 1.后台开发：参与平台的风控模块开发，以及策略维护； <br>  &nbsp &nbsp
-            2.报表开发：借助已有的BI平台，创建门户，进行相关业务的运营报表开发及管理； <br>  &nbsp &nbsp
-            3.安全助理：关注星迹平台的相关告警，联系相关负责人推进修复，直至告警闭环； <br>  &nbsp &nbsp
-            3.用户运营：以小助手的身份，协助用户接入，并解答使用过程中的各类问题； <br>  &nbsp &nbsp
-            4.知识沉淀：沉淀小助手的各类问题300+，以供用户FAQ。
+    detail: 1. 后台开发：参与平台的风控模块开发，以及策略维护； <br>  &nbsp &nbsp
+            2. 报表开发：借助已有的BI平台，创建门户，进行相关业务的运营报表开发及管理； <br>  &nbsp &nbsp
+            3. 安全助理：关注星迹平台的相关告警，联系相关负责人推进修复，直至告警闭环； <br>  &nbsp &nbsp
+            4. 用户运营：以小助手的身份，协助用户接入，并解答使用过程中的各类问题； <br>  &nbsp &nbsp
+            5. 知识沉淀：沉淀小助手的各类问题300+，以供用户FAQ。
     sub: 功能开发&运营负责人
     open: open
 
@@ -118,13 +118,11 @@ main: #简历主要内容，
 #others 其他简略内容(列表)
 others: #其他列表显示
 - type: others #ID可以为空
-  name: '其他'
+  name: 其他
   content: #选择需要的格式
   -
-  - title: "奖项"
-    text: "连续获得两次Outstanding员工，腾讯卓越研发奖-腾讯新闻数据科学工业化项目团队成员，腾讯开源协同奖-数据资产管理(河图) Oteam"
-  - title: "认证"
-    text: "BG内数据科学通道培养计划课程认证"
+  - title: 奖项
+    text: 腾讯微创新奖｜腾讯出行服务：抗疫公益互助
   #   items: #单行列表
   #   - 睡觉
   #   - 吃饭
@@ -143,12 +141,12 @@ others: #其他列表显示
 footer: #脚注多组
   print: #打印版markdown或者html
   screen:
-  - text: "简历脚注"
+  - text: 简历脚注
   #   href: '/'
-  - text: "Made with &hearts; by Yafengbu"
-    href: "https://kyod-bu.github.io/cv/"
+  - text: Made with &hearts; by Yafengbu
+    href: https://kyod-bu.github.io/cv/
 
 #页面额外js脚本，如xx统计
 scripts:
-#- src: "assets/js/resume.js"
+#- src: assets/js/resume.js
 #  defer: defer #可以设置defer或者sync异步加载
