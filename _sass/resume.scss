@@ -198,6 +198,10 @@ section {
     font-weight: 600;
     list-style: none;
     list-style-type: none;
+
+    ::after {
+      content: none;
+    }
   }
 
   .items {
