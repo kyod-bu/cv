@@ -31,8 +31,11 @@ main: #简历主要内容，
   content:
   - title: 技术
     items: #itmems 可以小块的方式显示
-    - SQL/Python
-    - 数据分析/可视化/业务应用
+    - SQL
+    - Python
+    - 数据分析
+    - 数据可视化
+    - 业务应用
     - 大模型场景落地
     summary: Python开发、数据分析、AI
     detail: 1. 熟练掌握Python编程，可使用SQL/Pandas/Numpy/Matplotlib等数据处理工具；<br/>
