@@ -15,7 +15,7 @@ $print-font-size: {{site.print.fontsize | default:'12px'}}; //打印字体大小
 
 $print-header-padding: {{site.print.header-padding | default:'8mm 0 4mm'}}; //header边距
 
-$print-section-margin: {{site.print.section.margin | default:'14px auto 0'}}; //section边距
+$print-section-margin: {{site.print.section.margin | default:'34px auto 0'}}; //section边距
 $print-section-padding: {{site.print.section.padding | default:'3px 0'}}; //section 内部偏移
 
 $print-content-width: {{site.print.section.width | default:'82%'}}; // 内容宽度
