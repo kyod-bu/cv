@@ -92,7 +92,7 @@ main: #简历主要内容，
     # - item2
 
   - title: 星迹-业务安全风控平台
-    sub: 功能开发&运营负责人
+    sub: 运营开发
     duration: 2019年3月 - 2023年2月
     tags:
     - Python
