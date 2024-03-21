@@ -19,14 +19,14 @@ contact: #联系方式连接等3~5行
 #main下面是主体内容，类别条数不限
 main: #简历主要内容，
 - type: education #类别为ID
-  name: 教育 #显示名称，空则使用type
+  name: 教育背景 #显示名称，空则使用type
   content: #内容基本格式 标题-副标题-日期-详细内容 (都允许空)
   - title: 西安邮电大学
     duration: 2013年9月 - 2017年7月
     sub: 智能科学与技术｜学士
     detail: 主修课程：概率论与随机过程、计算机网络、算法设计与分析、机器学习、模式识别、自然语言理解等。
 
-- type: 技能
+- type: 个人技能
   # name: 技术栈和编程语言
   content:
   - title: 技术栈与编程语言
@@ -46,18 +46,18 @@ main: #简历主要内容，
 - type: experience
   name: 工作经历
   content:
-  - title: 亿达信息技术有限公司
-    sub: 数据挖掘
-    duration: 2019年3月 - 至今
+  - title: 亿达信息技术有限公司｜数据挖掘
+    sub: 2019年3月 - 至今
+    duration:
     tags:
     # - 数据挖掘
     # - 模型落地
     # summary: 职务或者工作总结(自动折叠)
     detail: 负责大模型在数据分析领域的多个场景落地； <br>  &nbsp &nbsp  以往负责业务安全平台的日常运营和部分中台的前端开发工作。
 
-  - title: 中软国际科技服务有限公司
-    sub:  Python开发
-    duration: 2017年2月 - 2019年2月
+  - title: 中软国际科技服务有限公司｜Python开发
+    sub: 2017年2月 - 2019年2月
+    duration:
     tags:
     # summary: Python开发
     detail: 负责网管产品U2000对应的模拟器项目的二次开发和版本维护工作；按照需求文档，完成模拟器管理平台的模块设计、开发工作。
@@ -73,8 +73,9 @@ main: #简历主要内容，
 - type: Projects
   name: 项目经验
   content:
-  - title: 大模型场景落地
-    duration: 2023年3月 - 至今
+  - title: 大模型场景落地｜数据挖掘
+    sub: 2023年3月 - 至今
+    duration:
     tags:
     - 数据加工
     - Prompt设计
@@ -85,11 +86,11 @@ main: #简历主要内容，
             2. 模型评估筛选：对司内机器学习平台提供的中文对话模型，进行评估，筛选出适用于自己业务场景的模型（ChatGLM2-6B、Baichuan2-7B、Qwen-14B）； <br>  &nbsp &nbsp
             3. 模型微调：借助Prompt和LoRA微调技术，优化模型效果； <br>  &nbsp &nbsp
             4. 验证并迭代：借助Python接口调用对模型结果进行验证并迭代，直到准确率到90%以上。
-    sub: 数据挖掘
-    open: open
+    # open: open
 
-  - title: 星迹-业务安全风控平台
-    duration: 2019年3月 - 2023年2月
+  - title: 星迹-业务安全风控平台｜功能开发&运营负责人
+    sub: 2019年3月 - 2023年2月
+    duration:
     tags:
     - Python
     - SQL
@@ -100,18 +101,17 @@ main: #简历主要内容，
             3. 安全助理：关注星迹平台的相关告警，联系相关负责人推进修复，直至告警闭环； <br>  &nbsp &nbsp
             4. 用户运营：以小助手的身份，协助用户接入，并解答使用过程中的各类问题； <br>  &nbsp &nbsp
             5. 知识沉淀：沉淀小助手的各类问题300+，以供用户FAQ。
-    sub: 功能开发&运营负责人
-    open: open
+    # open: open
 
-  - title: 模拟器二次开发及版本管理
-    duration: 2017年2月 - 2019年1月
+  - title: 模拟器二次开发及版本管理｜Python开发
+    sub: 2017年2月 - 2019年1月
+    duration:
     tags:
     - Python网络编程
     - 通信协议
     - Flask
     summary: 模拟器二次开发：模拟基站与网管之间的交互；版本管理：主要针对已发布的模拟器版本进行web界面管理，针对已经安装的模拟器，通过web界面，进行远程维护，对外项目组有租赁的功能。
     detail: 负责对网管产品U2000下发的请求做出正确的响应，同样支持模拟器对U2000主动发送原语（如：告警）；同时负责模拟器版本管理web网站的开发。
-    sub: Python开发
     open: open
    #可继续添加更多内容
 

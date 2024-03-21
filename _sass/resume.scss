@@ -167,6 +167,7 @@ section {
     color: #6ae;
     text-transform: uppercase;
     vertical-align: top;
+    line-height: 1em;
 
     &:lang(zh) {
       font-size: 1.65em;
@@ -199,7 +200,7 @@ section {
     list-style: none;
     list-style-type: none;
 
-    ::after {
+    ::before {
       content: none;
     }
   }
