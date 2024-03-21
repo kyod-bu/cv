@@ -21,9 +21,9 @@ main: #简历主要内容，
 - type: education #类别为ID
   name: 教育背景 #显示名称，空则使用type
   content: #内容基本格式 标题-副标题-日期-详细内容 (都允许空)
-  - title: 西安邮电大学｜2013年9月 - 2017年7月
-    duration:
+  - title: 西安邮电大学
     sub: 智能科学与技术｜学士
+    duration: 2013年9月 - 2017年7月
     detail: 主修课程：概率论与随机过程、计算机网络、算法设计与分析、机器学习、模式识别、自然语言理解等。
 
 - type: 个人技能
@@ -46,18 +46,18 @@ main: #简历主要内容，
 - type: experience
   name: 工作经历
   content:
-  - title: 亿达信息技术有限公司｜数据挖掘
-    sub: 2019年3月 - 至今
-    duration:
+  - title: 亿达信息技术有限公司
+    sub: 数据挖掘
+    duration: 2019年3月 - 至今
     tags:
     # - 数据挖掘
     # - 模型落地
     # summary: 职务或者工作总结(自动折叠)
     detail: 负责大模型在数据分析领域的多个场景落地； <br>  &nbsp &nbsp  以往负责业务安全平台的日常运营和部分中台的前端开发工作。
 
-  - title: 中软国际科技服务有限公司｜Python开发
-    sub: 2017年2月 - 2019年2月
-    duration:
+  - title: 中软国际科技服务有限公司
+    sub: Python开发
+    duration: 2017年2月 - 2019年2月
     tags:
     # summary: Python开发
     detail: 负责网管产品U2000对应的模拟器项目的二次开发和版本维护工作；按照需求文档，完成模拟器管理平台的模块设计、开发工作。
@@ -73,8 +73,8 @@ main: #简历主要内容，
 - type: Projects
   name: 项目经验
   content:
-  - title: 大模型场景落地｜数据挖掘
-    sub: 2023年3月 - 至今
+  - title: 大模型场景落地
+    sub: 数据挖掘
     duration: 2023年3月 - 至今
     tags:
     - 数据加工
@@ -91,9 +91,9 @@ main: #简历主要内容，
     - item1
     - item2
 
-  - title: 星迹-业务安全风控平台｜功能开发&运营负责人
-    sub: 2019年3月 - 2023年2月
-    duration:
+  - title: 星迹-业务安全风控平台
+    sub: 功能开发&运营负责人
+    duration: 2019年3月 - 2023年2月
     tags:
     - Python
     - SQL
@@ -106,9 +106,9 @@ main: #简历主要内容，
             5. 知识沉淀：沉淀小助手的各类问题300+，以供用户FAQ。
     open: open
 
-  - title: 模拟器二次开发及版本管理｜Python开发
-    sub: 2017年2月 - 2019年1月
-    duration:
+  - title: 模拟器二次开发及版本管理
+    sub: Python开发
+    duration: 2017年2月 - 2019年1月
     tags:
     - Python网络编程
     - 通信协议
