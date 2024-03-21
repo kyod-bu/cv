@@ -4,7 +4,7 @@
 @page {
   /* auto is the initial value */
   size: auto;
-  margin: $print-page-margin; // this affects the margin in 
+  margin: $print-page-margin; // this affects the margin in
 }
 
 @page:blank {
@@ -32,7 +32,7 @@ body {
 
 header,
 main {
-  width: 90%;
+  width: 98%;
 }
 
 /*链接*/
