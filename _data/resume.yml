@@ -87,9 +87,9 @@ main: #简历主要内容，
             3. 模型微调：借助Prompt和LoRA微调技术，优化模型效果； <br>  &nbsp &nbsp
             4. 验证并迭代：借助Python接口调用对模型结果进行验证并迭代，直到准确率到90%以上。
     open: open
-    items:
-    - item1
-    - item2
+    # items:
+    # - item1
+    # - item2
 
   - title: 星迹-业务安全风控平台
     sub: 功能开发&运营负责人
