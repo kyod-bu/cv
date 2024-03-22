@@ -288,12 +288,12 @@ code {
 .detail {
   font-size: 1.05em;
   margin: 1em 0;
-  text-indent: 0;
+  text-indent: 1em; //缩进
   line-height: 1.8em;
   font-weight: 400;
   background: $detail_bg;
   word-wrap: break-word;
-  padding: .5em;
+  // padding: .5em; //如果不加缩进的话，建议加个padding
 
   &:lang(zh) {
     word-break: break-all;
