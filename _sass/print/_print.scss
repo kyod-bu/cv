@@ -118,6 +118,6 @@ summary {
 /*左边标题垂直方向置顶*/
 section {
   h2 {
-    vertical-align: top;
+    vertical-align: top !important;
   }
 }
