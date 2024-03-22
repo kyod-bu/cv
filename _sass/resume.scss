@@ -285,16 +285,23 @@ code {
   }
 }
 
+// 参考：：
+// .summary {
+//   font-size: 1.1em;
+//   margin: .3em 0 0 .5em;
+//   line-height: 1.5em;
+//   font-weight: 600;
+// }
 .detail {
   font-size: 1.05em;
   // margin: 1em 0;
   margin: .3em 0 0 .5em;
-  text-indent: 1em; //缩进
+  // text-indent: 1em; //缩进
   line-height: 1.8em;
   font-weight: 400;
   background: $detail_bg;
   word-wrap: break-word;
-  // padding: .5em; //如果不加缩进的话，建议加个padding
+  padding: .5em; //如果不加缩进的话，建议加个padding
 
   &:lang(zh) {
     word-break: break-all;
