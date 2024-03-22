@@ -80,7 +80,7 @@ chrome 优先
     color: #222;
     margin-right: .5em; // border-bottom: 1px dashed;
     code:not(:last-child)::after {
-      content: '';
+      content: ',';
       font-size: 50%;
     }
   }
