@@ -32,7 +32,7 @@ body {
 
 header,
 main {
-  width: 98%;
+  width: 90%;
 }
 
 /*链接*/
@@ -65,6 +65,10 @@ p,
 .detail,
 footer {
   page-break-inside: avoid;
+}
+
+.detail {
+  text-indent: 0;
 }
 
 /*隐藏脚注*/
