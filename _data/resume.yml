@@ -14,10 +14,10 @@ contact: #联系方式连接等3~5行
   icon: icons/email.svg #图标 svg文件
 - text: +86 15029074256
   icon: icons/phone.svg
-- text: https://github.com/kyod-bu/
-  icon: icons/github.svg
-  href: https://github.com/kyod-bu/
-  attr: target="_blank" #新标签页打开
+# - text: https://github.com/kyod-bu/
+#   icon: icons/github.svg
+#   href: https://github.com/kyod-bu/
+#   attr: target="_blank" #新标签页打开
 
 #main下面是主体内容，类别条数不限
 main: #简历主要内容，
