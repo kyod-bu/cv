@@ -110,7 +110,14 @@ summary {
   color: #000;
 }
 
-/*打印时不需要缩进*/
+/*不需要缩进*/
 .detail {
   text-indent: 0 !important;
+}
+
+/*左边标题垂直方向置顶*/
+section {
+  h2 {
+    vertical-align: top;
+  }
 }
