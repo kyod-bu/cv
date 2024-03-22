@@ -67,10 +67,6 @@ footer {
   page-break-inside: avoid;
 }
 
-.detail {
-  text-indent: 0;
-}
-
 /*隐藏脚注*/
 footer {
   border-top-style: solid;
@@ -112,4 +108,9 @@ summary {
 /*color*/
 .name {
   color: #000;
+}
+
+/*打印时不需要缩进*/
+.detail {
+  text-indent: 0 !important;
 }
