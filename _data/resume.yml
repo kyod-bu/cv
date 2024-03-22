@@ -9,14 +9,15 @@ photo: assets/img/me.jpg #照片可空，不显示
 
 #联系方式
 contact: #联系方式连接等3~5行
-- text: yafengbu@gmail.com #文本内容
+- text: yafengbu@gmail.com #文本内容，另一个邮箱 751019439@qq.com
   # href: mailto:yafengbu@gmail.com #链接，无链接则空
   icon: icons/email.svg #图标 svg文件
-- text: 751019439@qq.com #文本内容
-  icon: icons/email.svg #图标 svg文件
-  # attr: target="_blank" #新标签页打开
 - text: +86 15029074256
   icon: icons/phone.svg
+- text: +86 15029074256
+  icon: icons/github.svg
+  href: https://github.com/kyod-bu/
+  attr: target="_blank" #新标签页打开
 
 #main下面是主体内容，类别条数不限
 main: #简历主要内容，
