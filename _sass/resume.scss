@@ -185,10 +185,10 @@ section {
 /*内部小块布局*/
 
 .block {
-  margin: 1em 0;
+  margin: .5em 0;
 
   &:not(:first-child) {
-    padding-top: .5em;
+    padding-top: .1em;
   }
 
   .summary {
