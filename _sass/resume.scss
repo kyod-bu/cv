@@ -97,7 +97,7 @@ footer li {
 header {
   @include justify-content(space-around);
   border-bottom: .3em solid #8bf;
-  padding: 2.5em 0 1em;
+  padding: 1.5em 0 1em;
 
   .avatar {
     //头像
